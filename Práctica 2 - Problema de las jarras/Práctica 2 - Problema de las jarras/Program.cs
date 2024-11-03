@@ -1,58 +1,85 @@
 ﻿
 using Práctica_2___Problema_de_las_jarras;
 
-Jar jar1 = new Jar(3);
-Jar jar2 = new Jar(5);
 
-while (true)
+Console.WriteLine("1. Intentar solución");
+Console.WriteLine("2. Calcular tamaño de espacio de estados");
+
+var firstOption = Console.ReadLine();
+
+switch (firstOption)
 {
-    Console.WriteLine("1. Llenar jarra 1");
-    Console.WriteLine("2. Llenar jarra 2");
-    Console.WriteLine("3. Vaciar jarra 1");
-    Console.WriteLine("4. Vaciar jarra 2");
-    Console.WriteLine("5. Llenar jarra 1 con jarra 2");
-    Console.WriteLine("6. Llenar jarra 2 con jarra 1");
-    Console.WriteLine("7. Salir \n");
+    case "1":
+        Jar jar1 = new Jar(3);
+        Jar jar2 = new Jar(5);
 
-    var option = Console.ReadLine();
+        while (true)
+        {
+            Console.WriteLine("1. Llenar jarra 1");
+            Console.WriteLine("2. Llenar jarra 2");
+            Console.WriteLine("3. Vaciar jarra 1");
+            Console.WriteLine("4. Vaciar jarra 2");
+            Console.WriteLine("5. Llenar jarra 1 con jarra 2");
+            Console.WriteLine("6. Llenar jarra 2 con jarra 1");
+            Console.WriteLine("7. Salir \n");
 
-    switch (option)
-    {
-        case "1":
-            jar1.fill();
-            break;
-        case "2":
-            jar2.fill();
-            break;
-        case "3":
-            jar1.empty();
-            break;
-        case "4":
-            jar2.empty();
-            break;
-        case "5":
-            jar1.fill(jar2);
-            break;
-        case "6":
-            jar2.fill(jar1);
-            break;
-        case "7":
-            return;
-        default:
-            Console.WriteLine("Opción inválida");
-            break;
-    }
+            var option = Console.ReadLine();
 
-    Console.Clear();
+            switch (option)
+            {
+                case "1":
+                    jar1.fill();
+                    break;
+                case "2":
+                    jar2.fill();
+                    break;
+                case "3":
+                    jar1.empty();
+                    break;
+                case "4":
+                    jar2.empty();
+                    break;
+                case "5":
+                    jar1.fill(jar2);
+                    break;
+                case "6":
+                    jar2.fill(jar1);
+                    break;
+                case "7":
+                    return;
+                default:
+                    Console.WriteLine("Opción inválida");
+                    break;
+            }
 
-    Console.WriteLine($"\nEl volumen de la jarra de {jar1.getCapacity()} litros es de {jar1.getCurrentVolume()}");
-    Console.WriteLine($"El volumen de la jarra de {jar2.getCapacity()} litros es de {jar2.getCurrentVolume()}\n");
+            Console.Clear();
 
-    if (jar1.getCurrentVolume() == 1 || jar2.getCurrentVolume() == 1)
-    {
-        Console.WriteLine("El reto fue completado");
+            Console.WriteLine($"\nEl volumen de la jarra de {jar1.getCapacity()} litros es de {jar1.getCurrentVolume()}");
+            Console.WriteLine($"El volumen de la jarra de {jar2.getCapacity()} litros es de {jar2.getCurrentVolume()}\n");
+
+            if (jar1.getCurrentVolume() == 1 || jar2.getCurrentVolume() == 1)
+            {
+                Console.WriteLine("El reto fue completado");
+                break;
+            }
+
+        }
         break;
-    }
+    case "2":
 
+        var calculator = new StateSpaceCalculator();
+        var states = calculator.CalculateStateSpace();
+        Console.WriteLine($"El tamaño de espacio de estados es de {states.Count}");
+        foreach (var state in states)
+        {
+            Console.WriteLine(state);
+        }
+        break;
+    default:
+        Console.WriteLine("Opción inválida");
+        break;
 }
+
+
+
 

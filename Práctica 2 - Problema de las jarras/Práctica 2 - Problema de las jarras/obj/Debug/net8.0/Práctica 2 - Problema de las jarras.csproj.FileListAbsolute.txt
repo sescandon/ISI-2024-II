@@ -12,3 +12,4 @@ C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Pr
 C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.pdb
 C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\ref\Práctica 2 - Problema de las jarras.dll
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.sourcelink.json

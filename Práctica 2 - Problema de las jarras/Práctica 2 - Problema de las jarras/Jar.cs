@@ -17,6 +17,12 @@ namespace Práctica_2___Problema_de_las_jarras
             this.currentVolume = 0;
         }
 
+        public Jar(Jar other)
+        {
+            this.capacity = other.capacity;
+            this.currentVolume = other.currentVolume;
+        }
+
         public int getCapacity()
         {
             return this.capacity;
@@ -54,7 +60,7 @@ namespace Práctica_2___Problema_de_las_jarras
             }
         }
 
-        private void fill(int volume)
+        protected void fill(int volume)
         {
             this.currentVolume = volume;
         }
