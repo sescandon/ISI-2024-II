@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\bin\Debug\net8.0\Práctica 2 - Problema de las jarras.exe
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\bin\Debug\net8.0\Práctica 2 - Problema de las jarras.deps.json
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\bin\Debug\net8.0\Práctica 2 - Problema de las jarras.runtimeconfig.json
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\bin\Debug\net8.0\Práctica 2 - Problema de las jarras.dll
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\bin\Debug\net8.0\Práctica 2 - Problema de las jarras.pdb
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.dll
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\refint\Práctica 2 - Problema de las jarras.dll
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.pdb
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\Práctica 2 - Problema de las jarras.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Académico\2024-2\Inteligentes\Código\Práctica 2 - Problema de las jarras\Práctica 2 - Problema de las jarras\obj\Debug\net8.0\ref\Práctica 2 - Problema de las jarras.dll
