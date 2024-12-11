@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Práctica 2 - Problema de las jarras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a73018da154b0cd7d43f4f1f1a0b07d6f887cb69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b507e0e760678595d5ea38f829fc1be09ce9210")]
 [assembly: System.Reflection.AssemblyProductAttribute("Práctica 2 - Problema de las jarras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Práctica 2 - Problema de las jarras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
