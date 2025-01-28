@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.linear_model import Perceptron
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
 def sigmoid(x):
@@ -52,3 +53,4 @@ print("          Predicho")
 print("Real      1    0")
 print(f"  1       {conf_matrix[1,1]}    {conf_matrix[1,0]}")
 print(f"  0       {conf_matrix[0,1]}    {conf_matrix[0,0]}")
+
