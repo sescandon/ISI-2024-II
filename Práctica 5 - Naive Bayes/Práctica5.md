@@ -15,8 +15,8 @@
     - P(c) = 2/8
 - #### Probabilidades por atributos:
     - a
-      - P(x<sub>1</sub> = 0 | a) = 2/3
-      - P(x<sub>1</sub> = 1 | a) = 1/3
+      - P(x<sub>1</sub> = 0 | a) = 1/3
+      - P(x<sub>1</sub> = 1 | a) = 2/3
       - P(x<sub>2</sub> = 0 | a) = 3/3
       - P(x<sub>2</sub> = 1 | a) = 0/3
       - P(x<sub>3</sub> = 0 | a) = 1/3
@@ -41,7 +41,7 @@
 #### P(Clase | X) ∝ P(Clase) ⋅ P(x<sub>1</sub> = 0 | Clase) ⋅ P(x<sub>2</sub> = 0 | Clase) ⋅ P(x<sub>3</sub> = 1 | Clase)
 
 - Para a:  
-    P(a | (0,0,1)) = 3/8 ⋅ 2/3 ⋅ 3/3 ⋅ 2/3 = 1/6
+    P(a | (0,0,1)) = 3/8 ⋅ 1/3 ⋅ 3/3 ⋅ 2/3 = 1/12
 - Para b:  
     P(b | (0,0,1)) = 3/8 ⋅ 1/3 ⋅ 1/3 ⋅ 1/3 = 1/72
 - Para c:  
@@ -55,7 +55,7 @@ Siendo P(x) = [P(a) ⋅ P(x|a)] + [P(b) ⋅ P(x|b)] + [P(c) ⋅ P(x|c)]
 
 Entonces:  
 
-- P(a) ⋅ P(x|a) = 3/8 ⋅ 1/3 ⋅ 0 ⋅ 1/3 = 0
+- P(a) ⋅ P(x|a) = 3/8 ⋅ 2/3 ⋅ 0 ⋅ 1/3 = 0
 - P(b) ⋅ P(x|b) = 3/8 ⋅ 2/3 ⋅ 2/3 ⋅ 2/3 = 1/9
 - P(c) ⋅ P(x|c) = 2/8 ⋅ 0 ⋅ 1/2 ⋅ 1/2 = 0
 
